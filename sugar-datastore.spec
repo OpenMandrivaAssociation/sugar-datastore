@@ -1,15 +1,13 @@
-%define python_sitelib %(%{__python} -c "from distutils.sysconfig import get_python_lib; print get_python_lib()")
-
 Name: sugar-datastore
 Version: 0.82.1
-Release: 2%{?dist}
+Release: %mkrel 1
 Summary: Sugar Datastore
 
-Group: Development/Libraries
+Group: Development/Python
 License: GPLv2+
 URL: http://dev.laptop.org/
 Source0: http://dev.laptop.org/pub/sugar/sources/%{name}/%{name}-%{version}.tar.bz2
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 
 BuildArch: noarch
 
