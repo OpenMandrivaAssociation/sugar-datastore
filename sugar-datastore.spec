@@ -1,6 +1,6 @@
 Name: sugar-datastore
 Version: 0.82.1
-Release: %mkrel 1
+Release: %mkrel 2
 Summary: Sugar Datastore
 
 Group: Development/Python
@@ -11,8 +11,7 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 
 BuildArch: noarch
 
-BuildRequires: python
-
+%py_requires
 Requires: gnome-python-gnomevfs
 Requires: xapian-bindings-python
 Requires: python-sqlite2
