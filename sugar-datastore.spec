@@ -10,7 +10,7 @@ Url: http://sugarlabs.org/
 
 Source: http://download.sugarlabs.org/sources/sucrose/glucose/sugar-datastore/sugar-datastore-0.83.3.tar.bz2
 
-Requires: sugar-base >= 0.83.3
+Requires: sugar-base >= 0.83.4
 Requires: python-dbus  
 Requires: xapian-bindings-python  
 Requires: python  
