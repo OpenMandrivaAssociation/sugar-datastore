@@ -20,6 +20,7 @@ BuildRequires: libpython-devel
 
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 
+
 %description
 This package contains a simple log like datastore able to connect with multiple
 backends. The datastore supports connecting and disconnecting from backends
@@ -30,18 +31,14 @@ the fact that network services may become unavailable at times.
 %setup -q -n sugar-datastore-0.84.0
 
 
-# eliminate %%configure's "clever" behaviour
-%define __libtoolize true
-
 %build
-%configure 
-make 
+%define __libtoolize true
+%configure
+make
 
 %install
 rm -rf %{buildroot}
-make  \
-	DESTDIR=%{buildroot} \
-	install
+make DESTDIR=%{buildroot} install
 
 
 %clean
@@ -49,6 +46,8 @@ rm -rf %{buildroot}
 
 %files 
 %defattr(-,root,root,-)
+%dir %{_datadir}/dbus-1
+%dir %{_datadir}/dbus-1/services
 %{_bindir}/*
 %{_datadir}/dbus*/services/*
 %{python_sitelib}/*
