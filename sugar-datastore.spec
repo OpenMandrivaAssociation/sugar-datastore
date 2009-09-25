@@ -2,19 +2,19 @@
 #       See http://wiki.sugarlabs.org/go/Deployment_Team/jhconvert for details
 
 Name: sugar-datastore
-Version: 0.85.4
+Version: 0.86.0
 Release: %mkrel 1
 Summary: Datastore service for Sugar
 License: GPL
 Group: Graphical desktop/Other
 Url: http://sugarlabs.org/
 
-Source: http://download.sugarlabs.org/sources/sucrose/glucose/sugar-datastore/sugar-datastore-0.85.4.tar.bz2
+Source: http://download.sugarlabs.org/sources/sucrose/glucose/sugar-datastore/sugar-datastore-0.86.0.tar.bz2
 
 Requires: python-dbus  
 Requires: python  
 Requires: python-cjson  
-Requires: sugar-base >= 0.85.6
+Requires: sugar-base >= 0.86.0
 Requires: xapian-bindings-python  
 
 BuildRequires: libpython-devel  
@@ -29,7 +29,7 @@ on the fly to help the support the limit space/memory characteristics and
 the fact that network services may become unavailable at times.
 
 %prep
-%setup -q -n sugar-datastore-0.85.4
+%setup -q -n sugar-datastore-0.86.0
 
 
 %build
