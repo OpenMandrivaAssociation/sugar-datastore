@@ -1,2 +1,4 @@
+removed_sources:
+  sugar-datastore-0.88.0.tar.bz2: 29318c37df8a9598763bdd38666fdb99767cdf58
 sources:
-  "sugar-datastore-0.88.0.tar.bz2": 29318c37df8a9598763bdd38666fdb99767cdf58
+  sugar-datastore-0.101.0.tar.xz: 206512e341b758a3c2e883f8f5bda1525bb1c300
