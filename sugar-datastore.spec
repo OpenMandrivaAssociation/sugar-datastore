@@ -3,14 +3,14 @@
 %define _disable_ld_no_undefined 1
 
 Name:		sugar-datastore
-Version:	0.88.0
-Release:	3
+Version:	0.101.0
+Release:	1
 Summary:	Datastore service for Sugar
 License:	GPL
 Group:		Graphical desktop/Other
 Url:		http://sugarlabs.org/
 
-Source0:	http://download.sugarlabs.org/sources/sucrose/glucose/sugar-datastore/sugar-datastore-0.88.0.tar.bz2
+Source0:	http://download.sugarlabs.org/sources/sucrose/glucose/sugar-datastore/sugar-datastore-%{version}.tar.xz
 
 Requires:	python-dbus  
 Requires:	python  
@@ -28,7 +28,7 @@ on the fly to help the support the limit space/memory characteristics and
 the fact that network services may become unavailable at times.
 
 %prep
-%setup -q -n sugar-datastore-0.88.0
+%setup -q
 
 
 %build
