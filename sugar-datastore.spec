@@ -4,7 +4,7 @@
 
 Name:		sugar-datastore
 Version:	0.101.0
-Release:	1
+Release:	2
 Summary:	Datastore service for Sugar
 License:	GPL
 Group:		Graphical desktop/Other
