@@ -3,8 +3,8 @@
 %define _disable_ld_no_undefined 1
 
 Name:		sugar-datastore
-Version:	0.101.0
-Release:	2
+Version:	0.108.1
+Release:	1
 Summary:	Datastore service for Sugar
 License:	GPL
 Group:		Graphical desktop/Other
@@ -12,13 +12,13 @@ Url:		http://sugarlabs.org/
 
 Source0:	http://download.sugarlabs.org/sources/sucrose/glucose/sugar-datastore/sugar-datastore-%{version}.tar.xz
 
-Requires:	python-dbus  
-Requires:	python  
-Requires:	python-cjson  
+Requires:	python2-dbus  
+Requires:	python2  
+Requires:	python2-cjson  
 Requires:	sugar-base >= 0.88.0
 Requires:	xapian-bindings-python  
 
-BuildRequires:	python-devel  
+BuildRequires:	python2-devel  
 
 
 %description
@@ -45,6 +45,6 @@ the fact that network services may become unavailable at times.
 %dir %{_datadir}/dbus-1/services
 %{_bindir}/*
 %{_datadir}/dbus*/services/*
-%{python_sitelib}/*
+%{python2_sitelib}/*
 %doc AUTHORS COPYING NEWS README
 
