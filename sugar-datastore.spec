@@ -4,7 +4,7 @@
 
 Name:		sugar-datastore
 Version:	0.108.1
-Release:	1
+Release:	2
 Summary:	Datastore service for Sugar
 License:	GPL
 Group:		Graphical desktop/Other
@@ -14,7 +14,6 @@ Source0:	http://download.sugarlabs.org/sources/sucrose/glucose/sugar-datastore/s
 
 Requires:	python2-dbus  
 Requires:	python2  
-Requires:	python2-cjson  
 Requires:	sugar-base >= 0.88.0
 Requires:	xapian-bindings-python  
 
