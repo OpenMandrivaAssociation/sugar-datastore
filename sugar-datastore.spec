@@ -8,7 +8,7 @@ Release:	2
 Summary:	Datastore service for Sugar
 License:	GPL
 Group:		Graphical desktop/Other
-Url:		http://sugarlabs.org/
+Url:		https://sugarlabs.org/
 
 Source0:	http://download.sugarlabs.org/sources/sucrose/glucose/sugar-datastore/sugar-datastore-%{version}.tar.xz
 
