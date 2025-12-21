@@ -17,6 +17,11 @@ Requires:	python2
 Requires:	sugar-base >= 0.88.0
 Requires:	xapian-bindings-python  
 
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	python2-devel  
 
 
