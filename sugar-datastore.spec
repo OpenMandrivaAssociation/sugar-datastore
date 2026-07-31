@@ -3,8 +3,8 @@
 %define _disable_ld_no_undefined 1
 
 Name:		sugar-datastore
-Version:	0.108.1
-Release:	2
+Version:	0.121
+Release:	1
 Summary:	Datastore service for Sugar
 License:	GPL
 Group:		Graphical desktop/Other
